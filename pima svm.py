@@ -105,6 +105,7 @@ def plot_svc(clf, X, y, h=0.08, pad=0.25):
     plt.xlabel('X1')
     plt.ylabel('X2')
     plt.show()
+    #plt.show()
     print('Number of support vectors: ', clf.support_.size)
 
 plot_svc(clf.best_estimator_, X_validation, Y_validation)
