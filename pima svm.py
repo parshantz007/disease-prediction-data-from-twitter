@@ -104,6 +104,8 @@ def plot_svc(clf, X, y, h=0.08, pad=0.25):
     plt.ylim(y_min, y_max)
     plt.xlabel('X1')
     plt.ylabel('X2')
+    # plt.xlabel('X1')
+    # plt.ylabel('X2')
     plt.show()
     #plt.show()
     print('Number of support vectors: ', clf.support_.size)
