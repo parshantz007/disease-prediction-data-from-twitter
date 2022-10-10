@@ -4,17 +4,17 @@ Created on Thu Jun 22 12:04:21 2017
 
 @author: GAURAV GAUTAM
 """
-import pandas as pd
-from sklearn import model_selection
+import pandas as pd #pandas library use
+from sklearn import model_selection # scikit library used
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import Normalizer
 from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
-import numpy as np
+import numpy as np # numpy library used
 import sklearn.cross_validation as cv
 import sklearn.grid_search as gs
 import sklearn.svm as svm
-import matplotlib as mpl
+import matplotlib as mpl #numpy library used
 import matplotlib.pyplot as plt
 from matplotlib.axes import Subplot as plt
 from sklearn import datasets
